@@ -1,0 +1,28 @@
+@import "app/assets/styles/base/_variables.less";
+@import "app/assets/styles/base/_global.less";
+@import "app/assets/styles/base/_text-content.less";
+@import "app/assets/styles/base/_mixins.less";
+
+.locations {
+  .header__about {
+    margin-bottom: -80px;
+  }
+  &__details {
+    margin-top: 65px;
+    width: 100%;
+    strong {
+      font-weight: 400;
+    }
+    p,
+    address {
+      font-weight: 300;
+      line-height: 1.5;
+      font-style: normal;
+    }
+  }
+  #map {
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+  }
+}

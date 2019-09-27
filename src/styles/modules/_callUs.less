@@ -1,0 +1,56 @@
+@import "app/assets/styles/base/_variables.less";
+@import "app/assets/styles/base/_global.less";
+
+.callUs{
+  height: 500px;
+  background: @bgRed;
+  #clearFix();
+
+  @media @phone-up{
+    height: 450px;
+  }
+
+  @media @desktop-up{
+    height: 260px;
+  }
+
+  &__title{
+    #sessionTitle();
+    color: @white;
+    margin-bottom: 1rem;
+
+    #titleDivider--center();
+    &::after{
+      background: @white;
+    }
+    @media @desktop-up{
+      #titleDivider();
+      &::after{
+        background: @white;
+        margin-left: 0;
+      }
+    }
+  }
+  &__session--first-content{
+    #hr();  
+    &::after {
+      margin: 40px auto;
+    }
+    @media @desktop-up{
+    &::after {
+      display: none;
+      }
+    }
+  }
+  p, h3{
+    text-align: center;
+    text-transform: uppercase;
+    @media @desktop-up{
+      text-align: start;
+    }
+  }
+  &__numbers{
+    display: block;
+    margin: 10px;;
+  }
+}

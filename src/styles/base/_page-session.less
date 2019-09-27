@@ -1,0 +1,44 @@
+@import "app/assets/styles/base/_variables.less";
+@import "app/assets/styles/base/_global.less";
+@import "app/assets/styles/base/_mixins.less";
+
+.page-session {
+  #clearFix();
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @media @desktop-up {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &--grey {
+    background: @grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @media @desktop-up {
+      padding-top: 80px;
+    }
+  }
+
+  &--sub-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @media @desktop-up {
+      padding-top: 80px;
+    }
+  }
+
+  &--short {
+    @media @desktop-up {
+      padding-top: 50px;
+    }
+    &--margin-top {
+      @media @desktop-up {
+        padding-top: 65px;
+      }
+    }
+  }
+}
