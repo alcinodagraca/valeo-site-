@@ -10,23 +10,7 @@ function valeoservicos_init(){
 }
 add_action('after_setup_theme', 'valeoservicos_init');
 
-//Load in Our CSS and JS
-function valeoservicos_enqueue_styles() {
-    //Include Jquery
-    wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/d3js/5.12.0/d3.min.js', array(), NULL, true);
-    // Carousel JS lib
-    wp_enqueue_script( 'owlCarouselJs', get_template_directory_uri() . '/lib/owlCarousel/owl.carousel.min.js', array('jquery'), NULL,  microtime(), true);
-    // Costum JS file
-    wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', NULL,  microtime(), true);
-    // Carousel CSS File
-    wp_enqueue_style( 'owlCarouselDefault', get_template_directory_uri() . '/lib/owlCarousel/assets/owl.theme.default.min.css', NULL, microtime(), 'all');
-    // Carousel CSS File
-    wp_enqueue_style( 'owlCarousel', get_template_directory_uri() . '/lib/owlCarousel/assets/owl.carousel.min.css', NULL, microtime(), 'all');
-    // Costum CSS File
-    wp_enqueue_style( 'style', get_stylesheet_uri(), NULL, microtime(), 'all');
-    
-}
-add_action('wp_enqueue_scripts', 'valeoservicos_enqueue_styles');
+require_once('lib/enqueue-assets.php');
 
 //Register Menus
 register_nav_menus([
