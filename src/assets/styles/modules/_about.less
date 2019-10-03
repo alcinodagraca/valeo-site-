@@ -1,0 +1,44 @@
+@import "./src/assets/styles/base/_global.less";
+.about {
+  padding: 50px;
+  #clearFix();
+  &__header {
+    margin-top: -50px !important;
+  }
+  &__title {
+    text-align: center;
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 0.5;
+    font-size: 1.1rem;
+    color: @black;
+    #titleDivider--center();
+  }
+
+  &__subtitle {
+    color: @black !important;
+  }
+
+  &__text {
+    text-align: justify !important;
+    text-justify: inter-word;
+    padding-top: 20px !important;
+    color: @black !important;
+    text-justify: distribute;
+  }
+
+  &__iframe {
+    margin-top: -70px;
+    iframe {
+      border: none;
+      width: 100%;
+      height: 500px;
+    }
+  }
+
+  &__sobre-nos {
+  }
+}
