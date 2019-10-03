@@ -1,0 +1,56 @@
+@import "./src/assets/styles/base/_global.less";
+@import "./src/assets/styles/base/_mixins.less";
+.btn {
+  width: 150px;
+  height: 50px;
+  background: @divider;
+  border: solid @divider;
+  border-radius: 30px 5px 30px 30px;
+  color: @white;
+  font-size: 0.8125rem;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    padding-right: 30px;
+  }
+
+  @media @tablet-up {
+    width: 150px;
+    height: 50px;
+  }
+
+  &:hover {
+    background: transparent;
+    border: 1px solid @divider;
+    color: @black;
+  }
+
+  &-white {
+    border: 1px solid @white;
+
+    &:hover {
+      border: 2px solid #19d13e;
+      color: @white;
+    }
+  }
+
+  &-bgWhite {
+    background: transparent;
+    border: 2px solid @divider;
+    color: @black;
+    &:hover {
+      background: @bgRed;
+      color: @white;
+      border: none;
+    }
+  }
+
+  &--center {
+    display: block;
+    margin: 0 auto;
+    @media @desktop-up {
+      display: inline;
+      margin-left: 0;
+    }
+  }
+}

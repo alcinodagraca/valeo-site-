@@ -6,7 +6,7 @@
       <div class="slideshow-container">
         <div class="mySlides fade">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/img/banner/2x/banner-final-ws-2.jpg"
+            src="<?php echo get_template_directory_uri(); ?>/images/banner/hi-dpi/banner-ws-1-hidpi.jpg"
             style="width:100%"
           />
           <div class="container">
@@ -27,7 +27,7 @@
 
         <div class="mySlides fade">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/img/banner/2x/banner-final-ws-2.jpg"
+            src="<?php echo get_template_directory_uri(); ?>/images/banner/hi-dpi/banner-ws-2-hidpi.jpg"
             style="width:100%"
           />
           <div class="container">
@@ -48,7 +48,7 @@
 
         <div class="mySlides fade">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/img/banner/2x/banner-final-ws-mdpi.jpg"
+            src="<?php echo get_template_directory_uri(); ?>/images/banner/hi-dpi/banner-ws-3-hidpi.jpg"
             style="width:100%"
           />
           <div class="container">
@@ -82,42 +82,42 @@
         <div class="owl-carousel owl-theme">
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/img/Untitled-3-01.svg"
+              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-1.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/img/Untitled-3-02.svg"
+              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-2.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/img/Untitled-3-03.svg"
+              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-3.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/img/Untitled-3-04.svg"
+              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-4.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/img/Untitled-3-05.svg"
+              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-5.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/img/Untitled-3-06.svg"
+              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-6.svg"
               alt="certificados"
               title="Apcer"
             />
@@ -183,7 +183,7 @@
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/img/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/images/icons/print-icon.svg"
                 alt=" Our printing services"
               />
               <h3 class="services__item__title">Descrição do serviço</h3>
@@ -201,7 +201,7 @@
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/img/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/images/icons/print-icon.svg"
                 alt=" Our printing services"
               />
               <h3 class="services__item__title">Descrição do serviço</h3>
@@ -221,7 +221,7 @@
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/img/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/images/icons/print-icon.svg"
                 alt=" Our printing services"
               />
               <h3 class="services__item__title">Descrição do serviço</h3>
@@ -239,7 +239,7 @@
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/img/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/images/icons/print-icon.svg"
                 alt=" Our printing services"
               />
               <h3 class="services__item__title">Descrição do serviço</h3>
@@ -293,7 +293,7 @@
               <div class="testimonials__box">
                 <div class="testimonials__photo">
                   <img
-                    src="<?php echo get_template_directory_uri(); ?>/img/testimonial.svg"
+                    src="<?php echo get_template_directory_uri(); ?>/images/testimonial.svg"
                     alt="Name da Pessoa"
                     class="testimonial-photo"
                   />
@@ -313,7 +313,7 @@
               <div class="testimonials__box">
                 <div class="testimonials__photo">
                   <img
-                    src="<?php echo get_template_directory_uri(); ?>/img/testimonial.svg"
+                    src="<?php echo get_template_directory_uri(); ?>/images/testimonial.svg"
                     alt="Name da Pessoa"
                     class="testimonial-photo"
                   />
@@ -333,7 +333,7 @@
               <div class="testimonials__box testimonials__box--last-child">
                 <div class="testimonials__photo">
                   <img
-                    src="<?php echo get_template_directory_uri(); ?>/img/testimonial.svg"
+                    src="<?php echo get_template_directory_uri(); ?>/images/testimonial.svg"
                     alt="Name da Pessoa"
                   />
                 </div>
