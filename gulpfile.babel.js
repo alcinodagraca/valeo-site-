@@ -24,7 +24,7 @@ const paths = {
   },
   scripts: {
     src: "src/assets/scripts/bundle.js",
-    dest: "dist/assets/scripts/"
+    dest: "dist/assets/scripts"
   },
   images: {
     src: "src/assets/images/**/**/*.{jpg,jpeg,png,svg,gif}",

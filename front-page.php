@@ -6,7 +6,7 @@
       <div class="slideshow-container">
         <div class="mySlides fade">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/banner/hi-dpi/banner-ws-1-hidpi.jpg"
+            src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/banner/hi-dpi/banner-ws-1-hidpi.jpg"
             style="width:100%"
           />
           <div class="container">
@@ -27,7 +27,7 @@
 
         <div class="mySlides fade">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/banner/hi-dpi/banner-ws-2-hidpi.jpg"
+            src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/banner/hi-dpi/banner-ws-2-hidpi.jpg"
             style="width:100%"
           />
           <div class="container">
@@ -48,7 +48,7 @@
 
         <div class="mySlides fade">
           <img
-            src="<?php echo get_template_directory_uri(); ?>/images/banner/hi-dpi/banner-ws-3-hidpi.jpg"
+            src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/banner/hi-dpi/banner-ws-3-hidpi.jpg"
             style="width:100%"
           />
           <div class="container">
@@ -82,42 +82,42 @@
         <div class="owl-carousel owl-theme">
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-1.svg"
+              src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/clientes/cliente-1.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-2.svg"
+              src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/clientes/cliente-2.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-3.svg"
+              src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/clientes/cliente-3.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-4.svg"
+              src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/clientes/cliente-4.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-5.svg"
+              src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/clientes/cliente-5.svg"
               alt="certificados"
               title="Apcer"
             />
           </div>
           <div class="costumers__item">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/images/clientes/cliente-6.svg"
+              src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/clientes/cliente-6.svg"
               alt="certificados"
               title="Apcer"
             />
@@ -128,8 +128,8 @@
 
     <section class="whoWeAre page-session">
       <div class="container">
-        <div class="row row--gutters">
-          <div class="row__lg-7">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
             <div class="whoWeAre__left-content__description intro">
               <p class="whoWeAre__left-content__title desktop-visibe">
                 Quem <strong>somos?</strong>
@@ -151,7 +151,7 @@
           </div>
 
           <!-- Adicionar um Fallback, usar um poster(imagem) para navegadores que não suportam vídeos -->
-          <div class="row__lg-5">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
             <div class="whoWeAre__video-presentation">
               <iframe
                 class="whoWeAre__right-content__iframe"
@@ -165,9 +165,7 @@
       </div>
     </section>
 
-    <section
-      class="services page-session--grey text-content text-content--black"
-    >
+    <section class="services page-session--grey text-content text-content--black">
       <div class="container">
         <div class="services__header">
           <h3 class="services__header__title services__header--center">
@@ -176,32 +174,15 @@
         </div>
         <!-- Fim do Header -->
 
-        <div class="row__lg-6 services--mb-mobile">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6">
           <!-- Lista de Serviços Prestados Pela Empresa -->
           <div class="services__box">
             <!-- Icon -->
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/images/icons/print-icon.svg"
-                alt=" Our printing services"
-              />
-              <h3 class="services__item__title">Descrição do serviço</h3>
-
-              <p class="services__item__description__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
-                ipsa dolorum cumque voluptatibus sapiente reiciendis.
-              </p>
-            </div>
-          </div>
-
-          <!-- Lista de Serviços Prestados Pela Empresa -->
-          <div class="services__box">
-            <!-- Icon -->
-            <div class="services__item">
-              <img
-                class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/images/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/print-icon.svg"
                 alt=" Our printing services"
               />
               <h3 class="services__item__title">Descrição do serviço</h3>
@@ -214,32 +195,14 @@
           </div>
         </div>
 
-        <div class="row__lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6">
           <!-- Lista de Serviços Prestados Pela Empresa -->
           <div class="services__box">
             <!-- Icon -->
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/images/icons/print-icon.svg"
-                alt=" Our printing services"
-              />
-              <h3 class="services__item__title">Descrição do serviço</h3>
-
-              <p class="services__item__description__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
-                ipsa dolorum cumque voluptatibus sapiente reiciendis.
-              </p>
-            </div>
-          </div>
-
-          <!-- Lista de Serviços Prestados Pela Empresa -->
-          <div class="services__box">
-            <!-- Icon -->
-            <div class="services__item">
-              <img
-                class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/images/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/print-icon.svg"
                 alt=" Our printing services"
               />
               <h3 class="services__item__title">Descrição do serviço</h3>
@@ -252,11 +215,57 @@
           </div>
         </div>
       </div>
+
+            <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6">
+          <!-- Lista de Serviços Prestados Pela Empresa -->
+          <div class="services__box">
+            <!-- Icon -->
+            <div class="services__item">
+              <img
+                class="services__item__icon"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/print-icon.svg"
+                alt=" Our printing services"
+              />
+              <h3 class="services__item__title">Descrição do serviço</h3>
+
+              <p class="services__item__description__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                ipsa dolorum cumque voluptatibus sapiente reiciendis.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6">
+          <!-- Lista de Serviços Prestados Pela Empresa -->
+          <div class="services__box">
+            <!-- Icon -->
+            <div class="services__item">
+              <img
+                class="services__item__icon"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/print-icon.svg"
+                alt=" Our printing services"
+              />
+              <h3 class="services__item__title">Descrição do serviço</h3>
+
+              <p class="services__item__description__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                ipsa dolorum cumque voluptatibus sapiente reiciendis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
     </section>
 
     <section class="callUs page-session page-session--short">
       <div class="container">
-        <div class="row__lg-6 row--gutters--large">
+        <div class="row between-xs">
+          <div class="col-xs-12 col-lg-7 col-md-7">
           <div
             class="callUs__session callUs__session--first-content text-content"
           >
@@ -270,11 +279,12 @@
             </p>
           </div>
         </div>
-        <div class="row__lg-6">
+        <div class="col-xs-12 col-lg-5 col-md-5">
           <div class="callUs__session">
             <h3 class="callUs__title"><strong>Orçamento</strong></h3>
             <button class="btn btn-medium btn--center">Enviar e-mail</button>
           </div>
+        </div>
         </div>
       </div>
     </section>
@@ -287,13 +297,12 @@
           </p>
         </div>
 
-        <div class="row row--gutters--small">
-          <div class="testimonial__list">
-            <div class="row__lg-4">
+        <div class="row">
+            <div class="col-xs-12 col-md-4 col-lg-4">
               <div class="testimonials__box">
                 <div class="testimonials__photo">
                   <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/testimonial.svg"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/testimonials/testimonial.svg"
                     alt="Name da Pessoa"
                     class="testimonial-photo"
                   />
@@ -309,11 +318,11 @@
                 </div>
               </div>
             </div>
-            <div class="row__lg-4 ">
+            <div class="col-xs-12 col-md-4 col-lg-4">
               <div class="testimonials__box">
                 <div class="testimonials__photo">
                   <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/testimonial.svg"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/testimonials/testimonial.svg"
                     alt="Name da Pessoa"
                     class="testimonial-photo"
                   />
@@ -329,11 +338,11 @@
                 </div>
               </div>
             </div>
-            <div class="row__lg-4">
+            <div class="col-xs-12 col-md-4 col-lg-4">
               <div class="testimonials__box testimonials__box--last-child">
                 <div class="testimonials__photo">
                   <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/testimonial.svg"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/testimonials/testimonial.svg"
                     alt="Name da Pessoa"
                   />
                 </div>
@@ -350,7 +359,6 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
 
 

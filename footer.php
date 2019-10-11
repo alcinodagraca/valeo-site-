@@ -4,8 +4,8 @@
           <img src="" alt="logo" class="footer__footer-image" />
         </div>
 
-        <div class="row">
-          <div class="row__lg-4">
+        <div class="row between-xs">
+          <div class="col-xs-12 col-md-4 col-lg-4">
             <h3 class="footer__menu-title">Serviços</h3>
             <ul class="footer__menu">
               <li class="footer__menu-item">
@@ -19,7 +19,7 @@
               <li class="footer__menu-item">Tampografia</li>
             </ul>
           </div>
-          <div class="row__lg-4">
+          <div class="col-xs-12 col-md-4 col-lg-4">
             <h3 class="footer__menu-title">A Empresa</h3>
 
             <h4 class="footer__menu-subtitle">Horário de Trabalho</h4>
@@ -59,7 +59,7 @@
               valeo@valeoservicos.com
             </p>
           </div>
-          <div class="row__lg-4">
+          <div class="col-xs-12 col-md-4 col-lg-4">
             <h3 class="footer__menu-title">Siga-nos</h3>
             <ul class="footer__menu">
               <li class="footer__menu-item footer__menu-item--lh-small gap">
@@ -77,11 +77,9 @@
     <div class="footer__copyright">
       <small
         >&copy; 2019 - Design & Desenvolvimento por
-        <a href="">Valeo Serviços</a></small
+        <a href="<?php echo site_url(''); ?>">Valeo Serviços</a></small
       >
     </div>
-
-
-    <?php wp_footer(); ?>  
+    <?php wp_footer(); ?>
 </body> 
 </html>
