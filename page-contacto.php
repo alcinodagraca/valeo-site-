@@ -9,18 +9,9 @@ while(have_posts()){
 }
 ?>
 
+  <?php get_template_part('top-page-headers'); ?>
 
-    <section
-      class="contact page-session text-content--black"
-      style="background: url('<?php echo get_template_directory_uri(); ?>/dist/assets/images/banner/banner-up.svg'); background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;"
-    >
-      <div class="contact__header">
-        <h3 class="services__header__title services__header--center">
-          Entre em<strong> Contacto!</strong>
-        </h3>
-      </div>
+    <section class="contact text-content--black">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-4 col-lg-5">
@@ -33,6 +24,7 @@ while(have_posts()){
                 <br />
                 CP: 1823
               </p>
+              <br>
               <p>valeo@valeoserviços.com</p>
               <p>(+258) 84 51 000 01 / 84 51 000 01</p>
               <p>(+258) 84 51 000 01 / 84 51 000 01</p>

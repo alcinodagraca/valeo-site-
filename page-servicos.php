@@ -7,16 +7,27 @@ get_header(); ?>
   
     <?php get_template_part('top-page-headers'); ?>
 
-    <div class="services-page page-session">
+    <div class="services--page__intro-text">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="col-xs-12">
+            <p>Serviços Prestados pela <strong>Gráfica</strong> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services--page page-session">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="services--page__self">
               <a href="#" class="service--page__self__link">
                 <div class="service--page__self__image">
-                  <img
-                    src="https://via.placeholder.com/120x120.png"
-                    alt="Anything"
+                    <img
+                    class="services--page__item__icon"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/printer.svg"
+                    alt=" Our printing services"
                   />
                 </div>
                 <div class="service--page__self__details">
@@ -29,13 +40,14 @@ get_header(); ?>
               </a>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="services--page__self">
               <a href="#" class="service--page__self__link">
                 <div class="service--page__self__image">
-                  <img
-                    src="https://via.placeholder.com/120x120.png"
-                    alt="Anything"
+                    <img
+                    class="services--page__item__icon"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/printer.svg"
+                    alt=" Our printing services"
                   />
                 </div>
                 <div class="service--page__self__details">
@@ -48,13 +60,14 @@ get_header(); ?>
               </a>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="services--page__self">
               <a href="#" class="service--page__self__link">
                 <div class="service--page__self__image">
-                  <img
-                    src="https://via.placeholder.com/120x120.png"
-                    alt="Anything"
+                    <img
+                    class="services--page__item__icon"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/printer.svg"
+                    alt=" Our printing services"
                   />
                 </div>
                 <div class="service--page__self__details">
@@ -72,13 +85,14 @@ get_header(); ?>
         <!-- Second Row Services -->
 
         <div class="row">
-          <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="services--page__self">
               <a href="#" class="service--page__self__link">
                 <div class="service--page__self__image">
-                  <img
-                    src="https://via.placeholder.com/120x120.png"
-                    alt="Anything"
+                    <img
+                    class="services--page__item__icon"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/printer.svg"
+                    alt=" Our printing services"
                   />
                 </div>
                 <div class="service--page__self__details">
@@ -91,13 +105,14 @@ get_header(); ?>
               </a>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="services--page__self">
               <a href="#" class="service--page__self__link">
                 <div class="service--page__self__image">
-                  <img
-                    src="https://via.placeholder.com/120x120.png"
-                    alt="Anything"
+                    <img
+                    class="services--page__item__icon"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/printer.svg"
+                    alt=" Our printing services"
                   />
                 </div>
                 <div class="service--page__self__details">
@@ -110,13 +125,14 @@ get_header(); ?>
               </a>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="col-xs-12 col-md-6 col-lg-4">
             <div class="services--page__self">
               <a href="#" class="service--page__self__link">
                 <div class="service--page__self__image">
-                  <img
-                    src="https://via.placeholder.com/120x120.png"
-                    alt="Anything"
+                   <img
+                    class="services--page__item__icon"
+                    src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/printer.svg"
+                    alt=" Our printing services"
                   />
                 </div>
                 <div class="service--page__self__details">

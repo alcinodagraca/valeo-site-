@@ -10,7 +10,7 @@
             style="width:100%"
           />
           <div class="container">
-            <div class="large-hero__description">
+            <div class="large-hero__description text-animation">
               <span class="large-hero__description__intro"
                 >Somos Valeo Serviços:</span
               >
@@ -182,10 +182,10 @@
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/printer-offset.svg"
                 alt=" Our printing services"
               />
-              <h3 class="services__item__title">Descrição do serviço</h3>
+              <h3 class="services__item__title">Gráfica Offset Industrial</h3>
 
               <p class="services__item__description__text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
@@ -202,10 +202,10 @@
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/plotter.svg"
                 alt=" Our printing services"
               />
-              <h3 class="services__item__title">Descrição do serviço</h3>
+              <h3 class="services__item__title">Impressão Digital Plotter</h3>
 
               <p class="services__item__description__text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
@@ -216,7 +216,7 @@
         </div>
       </div>
 
-            <div class="row">
+        <div class="row services--mb-mobile">
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6">
           <!-- Lista de Serviços Prestados Pela Empresa -->
           <div class="services__box">
@@ -224,10 +224,10 @@
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/printer.svg"
                 alt=" Our printing services"
               />
-              <h3 class="services__item__title">Descrição do serviço</h3>
+              <h3 class="services__item__title">Impressão Digital Laser</h3>
 
               <p class="services__item__description__text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
@@ -244,10 +244,10 @@
             <div class="services__item">
               <img
                 class="services__item__icon"
-                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/print-icon.svg"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/sewing-machine.svg"
                 alt=" Our printing services"
               />
-              <h3 class="services__item__title">Descrição do serviço</h3>
+              <h3 class="services__item__title">Bordados Computadorizados</h3>
 
               <p class="services__item__description__text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio

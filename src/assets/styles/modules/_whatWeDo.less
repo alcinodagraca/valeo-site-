@@ -11,16 +11,16 @@
   }
 
   &--mb-mobile {
-    margin-bottom: 50px;
+    margin-top: 50px;
 
     @media @desktop-up {
-      margin-bottom: 0;
+      margin-top: 50px;
     }
   }
 
   &__box {
     @media @tablet-up {
-      width: 90%;
+      width: 100%;
     }
 
     margin-bottom: 50px;
@@ -29,7 +29,7 @@
     }
 
     @media @tablet-up {
-      margin-bottom: 70px;
+      margin-bottom: 50px;
     }
 
     &--margin-bottom {
@@ -69,6 +69,10 @@
         left: 0;
         width: 80px;
       }
+      &:hover {
+        border-color: @divider;
+        color: @divider;
+      }
     }
     &__icons {
       #icons();
@@ -78,6 +82,8 @@
 
   &__item__title {
     #titles();
+    font-weight: 400;
+    font-size: 1.2rem;
 
     @media @tablet-up {
       text-align: start;

@@ -2,7 +2,7 @@
 @import "./src/assets/styles/base/_mixins.less";
 @import "./src/assets/styles/base/_variables.less";
 .contact {
-  padding-top: 200px;
+  padding-top: 100px;
   position: relative;
 
   &__header {
@@ -31,7 +31,7 @@
       display: block;
       width: 100%;
       margin: 8px 0;
-      border: 2px solid @black;
+      border: 1px solid @black;
       padding: 14px;
       border-radius: 30px 5px 30px 30px;
       background: transparent;
@@ -40,6 +40,10 @@
         border: 2px solid @divider;
       }
     }
+  }
+
+  .wpcf7-form-control-wrap .your-name{
+    width: 50%;
   }
 
   &__map {

@@ -10,6 +10,52 @@ get_header(); ?>
     get_template_part('top-page-headers');
  ?>
 
+
+    <!-- Quem somos? -->
+
+     <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="text-content text-content--black">
+               <!-- Header -->
+              <div class="about__header__inner">
+                <p class="">
+                  <strong>Saiba um Pouco Sobre Nós</strong>
+                </p>
+              </div>
+              <p class="whoWeAre__left-content__subtitle">
+                desde o nascimento, para responder e satisfazer aos seus
+                clientes, com imenso prazer.
+              </p>
+              <p>
+                A Valeo Serviços, nascido em 2005, está no mercado há 14 anos e por todo este tempo, a dedicação, a seriedade e o profissionalismo nos permitem oferecer 
+                as soluções integradas, que permite você procurar, através da qualidade no trato com o cliente e a garantia de um trabalho devidamente elaborado, fornecendo 
+                orientação e apoio necessários.
+                <br>
+                Desde do nascimento da Valeo Serviços, cujo intuito forte é prestar e prover com qualidade, profissionalismo, serviços para responder e satisfazer as necessidades dos nossos 
+                Clientes, para tal, temos vindo a crescer e incorporando ano após ano os serviços seguintes: <br>
+                <strong>Ano 2001 – Gráfica</strong> <br> <strong>Ano 2003 – Serigrafia</strong>  <br><strong>Ano 2008 – Impressão Digital</strong>   <br><strong>Ano 2011 – Tampografia</strong> 
+                 e<br><strong>Ano 2012 vendas de maquinas de offset, impressão digital e assistência técnica.</strong> 
+              </p>
+            </div>
+          </div>
+
+          <!-- Adicionar um Fallback, usar um poster(imagem) para navegadores que não suportam vídeos -->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="whoWeAre__video-presentation about__intro-image">
+              <img
+              src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/banner/sobre-nos.svg"
+              alt="certificados"
+              title="Sobre nós"
+            />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- Missão      Valores     Visão   -->
 
     <section class="about__intro page-session">
@@ -17,6 +63,11 @@ get_header(); ?>
         <div class="row between-xs">
           <div class="col-xs-12 col-md-4 col-lg-4">
             <div class="about__box missao text-content">
+               <img
+                class="about__item__icon"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/target.svg"
+                alt=" Our printing services"
+              />
               <h3 class="about__title">Missão</h3>
               <p class="about__text">
                 Garantir a criação de valor para clientes, colaboradores e a
@@ -30,6 +81,11 @@ get_header(); ?>
           </div>
           <div class="col-xs-12 col-md-4 col-lg-4">
             <div class="about__box visao text-content">
+             <img
+                class="about__item__icon"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/eye.svg"
+                alt=" Our printing services"
+              />
               <h3 class="about__title">Visão</h3>
               <p class="about__text">
                 Ser uma empresa inovadora, diferenciada, comprometida com o
@@ -42,6 +98,11 @@ get_header(); ?>
           </div>
           <div class="col-xs-12 col-md-4 col-lg-4">
             <div class="about__box valores text-content">
+               <img
+                class="about__item__icon"
+                src="<?php echo get_template_directory_uri(); ?>/dist/assets/images/icons/value.svg"
+                alt=" Our printing services"
+              />
               <h3 class="about__title">Valores</h3>
               <p class="about__text">
                 Compromisso com a qualidade e busca por soluções criativas para
